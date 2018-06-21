@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["khuenping@gmail.com", "jackyhwong91@gmail.com"]
 
   spec.summary       = %q{Converts Unicode or non-ASCII punctuation and symbols to nearest ASCII punctuation and symbols.}
-  spec.homepage      = "https://github.com/qwuen/punctuate"
+  spec.homepage      = "https://github.com/wongy91/punctuate"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -21,7 +21,6 @@ Gem::Specification.new do |spec|
   #   raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   # end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
