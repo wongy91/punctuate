@@ -6,6 +6,6 @@ describe Punctuate do
   end
 
   it "converts a symbol to another" do
-    expect("Hello World⟩✱≤".punctuate).to eql "Hello World>*<="
+    expect("Hello World!⟩✱≤".punctuate).to eql "Hello World!>*<="
   end
 end
