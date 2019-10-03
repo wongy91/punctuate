@@ -1,2 +1,2 @@
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'punctuate'
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+require "punctuate"
